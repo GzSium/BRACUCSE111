@@ -7,4 +7,5 @@ class UniversityTester{
        System.out.println(u1.name);        // nul
        System.out.println(u1.country);    // nul
        System.out.println(u1 == u2);     // false
+    }
 }
