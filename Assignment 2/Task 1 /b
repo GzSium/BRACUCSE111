@@ -1,0 +1,14 @@
+//Task1
+class UniversityTester{
+   publicstaticvoidmain(String[]args){
+//b
+         u1.name= “Imperial College London”;
+         u1.country= “England”;
+             u2.name=“Brac University”;
+             u2.country=  “Bangladesh” ;
+            System.out.println(u1.name);        // Brac University
+            System.out.println(u1.country);    // Bangladesh
+
+
+  }
+}
