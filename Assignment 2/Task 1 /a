@@ -1,0 +1,10 @@
+//Task1
+class UniversityTester{
+    public static void main(String [] args){
+    //a
+            University u1 = new University();
+            University u2 = new University();
+       System.out.println(u1.name);        // nul
+       System.out.println(u1.country);    // nul
+       System.out.println(u1 == u2);     // false
+}
