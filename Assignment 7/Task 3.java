@@ -14,3 +14,18 @@ public class Dog extends Animal{
     }
 }
 
+public class Cat extends Animal{
+    public Cat(String n, int a, String c, String b){
+        super(n, a, c);
+        bread = b;
+    }
+    public String bread;
+    public void makeSound(){
+        System.out.println(super.color+" ccolor "+super.name+" is meowing");
+    }
+    public String info(){
+        return super.info()+"Bread: "+bread;
+    }
+    
+}
+
